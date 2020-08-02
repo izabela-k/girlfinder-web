@@ -1,38 +1,62 @@
-.App {
+.navbar-light .navbar-nav.top-nav .nav-link {
+  font-size: 1.5rem;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-brand.landing-brand {
+  color: #D62900;
+  font-family: 'Noto sans', 'Open Sans', 'Droid Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+}
+
+.landing-jumbotron {
+  min-height: 600px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.2) 100%), url('./jumbo-girls.jpg') no-repeat center center;
+}
+
+.landing-login-form {
+  padding-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.landing-form-header {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
   text-align: center;
+  color: #410b11;
+  margin-bottom: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-form-label {
+  text-align: right;
+  padding-right: 0;
+  font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* btn styles */
+.btn-facebook, .btn-google, .btn-get-started {
+  color: white;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-facebook:hover, .btn-google:hover, .btn-get-started:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-get-started {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #D62900;
+  border-color: #D62900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-google {
+  background-color: #4285f4;
+}
+
+.btn-facebook {
+  background-color: #4267b2;
 }
